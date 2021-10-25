@@ -1,0 +1,33 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash_screen</item>
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+
+    <style name="PagiActivity" parent="AppTheme">
+        <item name="android:statusBarColor">@color/morning_blue</item>
+        <item name="colorPrimary">@color/morning_blue</item>
+        <item name="title">Dzikir Pagi</item>
+    </style>
+
+    <style name="PetangActivity" parent="AppTheme">
+        <item name="android:statusBarColor">@color/afternoon_orange</item>
+        <item name="colorPrimary">@color/afternoon_orange</item>
+        <item name="title">Dzikir Petang</item>
+    </style>
+
+</resources>
